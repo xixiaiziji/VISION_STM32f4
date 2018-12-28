@@ -1,0 +1,145 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 123, 1231, LIC=PE701-CWWIQ-KB4ER-KBE7G-7XGRM-NHU98
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.20
+Toolchain Path:  F:\MDK520\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DARMSTM.DLL V1.66.0.0
+Target DLL:      CMSIS_AGDI.dll V1.25.20.0
+Dialog DLL:      TARMSTM.DLL V1.65.0.0
+ 
+<h2>Project:</h2>
+D:\MDK520workspace\F767版本\程序第十三版——最终实测用版\Project\RVMDK（uv5）\BH-F429.uvprojx
+Project File Date:  05/21/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'F:\MDK520\ARM\ARMCC\Bin'
+Build target 'OV2640'
+compiling proess.c...
+..\..\User\proess\proess.h(55): warning:  #1295-D: Deprecated declaration Erodation - give arg types
+  void Erodation();                                  //腐蚀
+..\..\User\proess\proess.h(56): warning:  #1295-D: Deprecated declaration Dilation - give arg types
+  void Dilation();                                 //????
+..\..\User\proess\proess.h(57): warning:  #1295-D: Deprecated declaration close - give arg types
+  void close();                                     
+..\..\User\proess\proess.h(58): warning:  #1295-D: Deprecated declaration open - give arg types
+  void open();
+..\..\User\proess\proess.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+  {-1, 0, 1,
+..\..\User\proess\proess.c(13): warning:  #68-D: integer conversion resulted in a change of sign
+  -1, 0, 1,
+..\..\User\proess\proess.c(14): warning:  #68-D: integer conversion resulted in a change of sign
+  -1, 0, 1},
+..\..\User\proess\proess.c(15): warning:  #68-D: integer conversion resulted in a change of sign
+  {-1, -1, 0,
+..\..\User\proess\proess.c(15): warning:  #68-D: integer conversion resulted in a change of sign
+  {-1, -1, 0,
+..\..\User\proess\proess.c(16): warning:  #68-D: integer conversion resulted in a change of sign
+  -1, 0, 1,
+..\..\User\proess\proess.c(18): warning:  #68-D: integer conversion resulted in a change of sign
+  {-1, -1, -1,
+..\..\User\proess\proess.c(18): warning:  #68-D: integer conversion resulted in a change of sign
+  {-1, -1, -1,
+..\..\User\proess\proess.c(18): warning:  #68-D: integer conversion resulted in a change of sign
+  {-1, -1, -1,
+..\..\User\proess\proess.c(21): warning:  #68-D: integer conversion resulted in a change of sign
+  {0, -1, -1,
+..\..\User\proess\proess.c(21): warning:  #68-D: integer conversion resulted in a change of sign
+  {0, -1, -1,
+..\..\User\proess\proess.c(22): warning:  #68-D: integer conversion resulted in a change of sign
+..\..\User\proess\proess.c(49): warning:  #177-D: variable "TH" was declared but never referenced
+  	uint16_t x=0,y=0,TH=0;
+..\..\User\proess\proess.c(135): warning:  #186-D: pointless comparison of unsigned integer with zero
+  					if(im<0) im=0;
+..\..\User\proess\proess.c(137): warning:  #186-D: pointless comparison of unsigned integer with zero
+            if(jm<0) im=0;
+..\..\User\proess\proess.c(180): warning:  #177-D: variable "k" was declared but never referenced
+  	 uint16_t i,j,k=0;uint16_t label=0x0000;
+..\..\User\proess\proess.c(430): warning:  #550-D: parameter "center_x" was set but never used
+  float feature(uint16_t label,uint16_t center_x,uint16_t center_y)
+..\..\User\proess\proess.c(430): warning:  #550-D: parameter "center_y" was set but never used
+  float feature(uint16_t label,uint16_t center_x,uint16_t center_y)
+..\..\User\proess\proess.c(432): warning:  #177-D: variable "i" was declared but never referenced
+  	uint16_t i,j,cx,cy;
+..\..\User\proess\proess.c(432): warning:  #177-D: variable "j" was declared but never referenced
+  	uint16_t i,j,cx,cy;
+..\..\User\proess\proess.c(433): warning:  #550-D: variable "length" was set but never used
+  	float L,size,length,ratio;
+..\..\User\proess\proess.c(569): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		diag=(r/
+I)*180;    //?嵌?    
+..\..\User\proess\proess.c(611): warning:  #186-D: pointless comparison of unsigned integer with zero
+                  if (rValue>=0)  
+..\..\User\proess\proess.c(588): warning:  #177-D: variable "indexTemp" was declared but never referenced
+          uint16_t x,y,indexTemp,rValue_M,theta_M,iCount; 
+..\..\User\proess\proess.c(588): warning:  #177-D: variable "iCount" was declared but never referenced
+          uint16_t x,y,indexTemp,rValue_M,theta_M,iCount; 
+..\..\User\proess\proess.c(663): warning:  #177-D: variable "temp" was declared but never referenced
+    uint16_t temp=0,i,j,k,m;
+..\..\User\proess\proess.c(666): warning:  #177-D: variable "m_iValve" was declared but never referenced
+  	uint16_t m_iValve=50;
+..\..\User\proess\proess.c(734): warning:  #186-D: pointless comparison of unsigned integer with zero
+         if (fxr<0x0000)
+..\..\User\proess\proess.c(891): warning:  #186-D: pointless comparison of unsigned integer with zero
+          if (fxr<0x0000)
+..\..\User\proess\proess.c(868): warning:  #177-D: variable "x" was declared but never referenced
+  uint16_t x,y,th1,th2,tem[9];
+..\..\User\proess\proess.c(868): warning:  #177-D: variable "y" was declared but never referenced
+  uint16_t x,y,th1,th2,tem[9];
+..\..\User\proess\proess.c(868): warning:  #177-D: variable "th1" was declared but never referenced
+  uint16_t x,y,th1,th2,tem[9];
+..\..\User\proess\proess.c(868): warning:  #177-D: variable "th2" was declared but never referenced
+  uint16_t x,y,th1,th2,tem[9];
+..\..\User\proess\proess.c(868): warning:  #177-D: variable "tem" was declared but never referenced
+  uint16_t x,y,th1,th2,tem[9];
+..\..\User\proess\proess.c(869): warning:  #177-D: variable "i" was declared but never referenced
+  uint32_t i,ii,jj,r;
+..\..\User\proess\proess.c(869): warning:  #177-D: variable "ii" was declared but never referenced
+  uint32_t i,ii,jj,r;
+..\..\User\proess\proess.c(869): warning:  #177-D: variable "jj" was declared but never referenced
+  uint32_t i,ii,jj,r;
+..\..\User\proess\proess.c(869): warning:  #177-D: variable "r" was declared but never referenced
+  uint32_t i,ii,jj,r;
+..\..\User\proess\proess.c(980): warning:  #177-D: variable "u" was declared but never referenced
+  	  double N0,N1,w0, w1, u0tmp, u1tmp, u0, u1, u, deltaTmp=-1, deltaMax = -1;
+..\..\User\proess\proess.c(1038): warning:  #177-D: variable "pixelSum" was declared but never referenced
+      uint16_t i, j,k, pixelSum=img_width*img_height,threshold = 0;
+..\..\User\proess\proess.c(1039): warning:  #177-D: variable "p1" was declared but never referenced
+  	  double p1=0,p2=0,H1=0,H2=0;
+..\..\User\proess\proess.c(1039): warning:  #177-D: variable "p2" was declared but never referenced
+  	  double p1=0,p2=0,H1=0,H2=0;
+..\..\User\proess\proess.c(1112): warning:  #186-D: pointless comparison of unsigned integer with zero
+  			if(t<0x0000)
+..\..\User\proess\proess.c(1173): warning:  #186-D: pointless comparison of unsigned integer with zero
+  			if(t<0x0000)
+..\..\User\proess\proess.c(1256): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         histEQU[i] = (uint16_t)(31.0 * histCDF[i] + 0.5);  
+..\..\User\proess\proess.c(4): warning:  #177-D: variable "label" was declared but never referenced
+  static uint16_t label;                      //连通?虮昙?
+..\..\User\proess\proess.c: 50 warnings, 0 errors
+linking...
+Program Size: Code=19756 RO-data=13392 RW-data=256 ZI-data=3409016  
+FromELF: creating hex file...
+"..\..\Output\OV2640.axf" - 0 Error(s), 50 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\MDK520workspace\F767版本\程序第十三版——最终实测用版\Project\RVMDK（uv5）\RTE
+  F:\MDK520\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
